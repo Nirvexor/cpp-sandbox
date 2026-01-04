@@ -11,15 +11,25 @@ The code within this repository is experimental and intended for educational pur
 * **Focus:** Demonstrates the difference between stack and heap allocation.
 * **Key Concepts:** `new`, `delete`, pointer dereferencing, and avoiding memory leaks by properly releasing dynamic arrays.
 
-### 2. Pointer Arithmetic
+### 2. Linked List Implementation
+* **File:** `linked_list_intro.cpp`
+* **Focus:** Manual implementation of a singly linked list.
+* **Key Concepts:** Node structure, dynamic node allocation, linking nodes via pointers, and traversing the list until `nullptr`.
+
+### 3. Object-Oriented Basics
+* **File:** `oop_basics.cpp`
+* **Focus:** Introduction to Classes and Object Lifecycle.
+* **Key Concepts:** Encapsulation (Private/Public), Constructors for initialization, Destructors for memory cleanup, and scope-based object lifetime.
+
+### 4. Pointer Arithmetic
 * **File:** `pointer_arithmetic.cpp`
 * **Focus:** Navigating arrays using raw pointers instead of indices.
 * **Key Concepts:** Pointer incrementation, struct pointers, and the arrow operator (`->`) for accessing struct members via pointers.
 
-### 3. Linked List Implementation
-* **File:** `linked_list_intro.cpp`
-* **Focus:** Manual implementation of a singly linked list.
-* **Key Concepts:** Node structure, dynamic node allocation, linking nodes via pointers, and traversing the list until `nullptr`.
+### 5. Polymorphism & Inheritance
+* **File:** `polymorphism_intro.cpp`
+* **Focus:** Derived classes and dynamic dispatch.
+* **Key Concepts:** Base and Derived classes, `protected` access specifier, `virtual` functions, and `virtual` destructors to prevent memory leaks when deleting derived objects via base pointers.
 
 ## Usage
 
