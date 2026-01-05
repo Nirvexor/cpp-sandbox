@@ -6,6 +6,8 @@ The code within this repository is experimental and intended for educational pur
 
 ## Contents
 
+**Project:** Gladiator Arena (v1.0) - A text-based turn-based combat system using OOP.
+
 ### 1. Heap Memory Management
 * **File:** `heap_memory.cpp`
 * **Focus:** Demonstrates the difference between stack and heap allocation.
