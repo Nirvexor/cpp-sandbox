@@ -6,7 +6,11 @@ The code within this repository is experimental and intended for educational pur
 
 ## Contents
 
-**Project:** Gladiator Arena (v1.0) - A text-based turn-based combat system using OOP.
+### Gladiator Arena (v1.0) 
+A text-based turn-based combat system using OOP.
+
+### Rock Paper Scissors (v1.0)
+A console-based game implementing modern RNG (Mersenne Twister) and Enum-based logic.
 
 ### 1. Heap Memory Management
 * **File:** `heap_memory.cpp`
