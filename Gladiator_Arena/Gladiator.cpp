@@ -9,7 +9,7 @@ Gladiator::Gladiator(std::string name_gladiator, int sethealth, int damagePower)
     if (sethealth > 1000){
         health = 1000;
     }
-    else if (sethealth == 24){
+    else if (sethealth == cheatHealth){
         health = 10000;
     }
     else if (sethealth < 30){
@@ -26,7 +26,7 @@ Gladiator::Gladiator(std::string name_gladiator, int sethealth, int damagePower)
     else if (damagePower < 15){
         attackPower = 15;
     }
-    else if (damagePower == 72){
+    else if (damagePower == cheatattackPower){
         attackPower = 1000;
     }
     else{

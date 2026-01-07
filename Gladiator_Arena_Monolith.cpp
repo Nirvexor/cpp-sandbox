@@ -6,6 +6,8 @@ class Gladiator{
         string name;
         int health;
         int attackPower;
+        const int cheatHealth = 24;
+        const int cheatattackPower = 72;
     public:
         Gladiator(string name_gladiator, int sethealth, int damagePower){
             
@@ -14,7 +16,7 @@ class Gladiator{
             if (sethealth > 1000){
                 health = 1000;
             }
-            else if (sethealth == 24){
+            else if (sethealth == cheatHealth){
                 health = 10000;
             }
             else if (sethealth < 30){
@@ -31,7 +33,7 @@ class Gladiator{
             else if (damagePower < 15){
                 attackPower = 15;
             }
-            else if (damagePower == 72){
+            else if (damagePower == cheatattackPower){
                 attackPower = 1000;
             }
             else{
@@ -59,7 +61,7 @@ class Gladiator{
             target->health -= attackPower;
         }
         void heal(){
-            health += health + health / 10;
+            health += health / 10;
             if (health > 1000){
                 cout << "Limit can't be passed. Max 1000 health" << endl;
                 health = 1000;

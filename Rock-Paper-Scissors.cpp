@@ -7,9 +7,8 @@ int getComputerChoice(){
     std::random_device rd;
 
     // Setup the engine
-    // Can be used static to make it less expensive but going to leave it that so this stays as a lesson to me.
-    // use static
-    std::mt19937 gen(rd());
+    // Static can be used static to make it less expensive.
+    static std::mt19937 gen(rd());
 
     // Define the Range (1 to 3, or 0 to 2)
     std::uniform_int_distribution<> distrib(1, 3);

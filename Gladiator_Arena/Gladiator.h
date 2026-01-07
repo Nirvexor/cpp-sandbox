@@ -9,6 +9,8 @@ class Gladiator{
         std::string name;
         int health;
         int attackPower;
+        const int cheatHealth = 24;
+        const int cheatattackPower = 72;
     public:
         // Constructor Declaration
         Gladiator(std::string name_gladiator, int sethealth, int damagePower);
