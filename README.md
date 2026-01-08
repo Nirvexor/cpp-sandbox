@@ -7,10 +7,19 @@ The code within this repository is experimental and intended for educational pur
 ## Contents
 
 ### Gladiator Arena (v1.0) 
-A text-based turn-based combat system using OOP.
+A text-based turn-based combat system using OOP. File version is the monolith one.
+
+**File:** `Gladiator_Arena_Monolith.cpp`
 
 ### Rock Paper Scissors (v1.0)
-A console-based game implementing modern RNG (Mersenne Twister) and Enum-based logic.
+A console-based game implementing modern RNG (Mersenne Twister).
+
+**File:** `Rock-Paper-Scissors.cpp`
+
+### Number Guessing Game(v0.5)
+A simple C++ number guessing game that you try to guess a randomşy generated number.
+
+**File:** `guess.cpp`
 
 ### 1. Heap Memory Management
 * **File:** `heap_memory.cpp`
