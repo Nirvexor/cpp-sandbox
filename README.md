@@ -48,11 +48,19 @@ A simple C++ number guessing game that you try to guess a randomşy generated nu
 
 ## Usage
 
-Each file is a standalone executable. Compile using a standard C++ compiler:
+Each file is a standalone executable(except Gladiator_Arena directory/folder). Compile using a standard C++ compiler:
 
 ```bash
 g++ heap_memory.cpp -o heap
 ./heap
 ```
+
+### Compiling Gladiator Arena directory/folder(need to be inside the directory/folder)
+
+```bash
+g++ main.cpp Gladiator.cpp -o Gladiator
+./Gladiator
+```
+
 ## Author
 Nirvexor
