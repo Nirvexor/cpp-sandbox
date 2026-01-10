@@ -16,8 +16,8 @@ A console-based game implementing modern RNG (Mersenne Twister).
 
 **File:** `Rock-Paper-Scissors.cpp`
 
-### Number Guessing Game(v0.5)
-A simple C++ number guessing game that you try to guess a randomşy generated number.
+### Number Guessing Game(v1.0)
+A simple C++ number guessing game that you try to guess a randomly generated number.
 
 **File:** `guess.cpp`
 
