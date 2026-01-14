@@ -21,6 +21,11 @@ A simple C++ number guessing game that you try to guess a randomly generated num
 
 **File:** `guess.cpp`
 
+### Personal Expense Tracker (v0.5)
+A tracker that helps you track your expenses with being able to save.
+
+**File:** `personel_expense_tracker.cpp`
+
 ### 1. Heap Memory Management
 * **File:** `heap_memory.cpp`
 * **Focus:** Demonstrates the difference between stack and heap allocation.
