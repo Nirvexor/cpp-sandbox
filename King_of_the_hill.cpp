@@ -8,8 +8,6 @@ int main() {
     int maxScore = score[0];
 
     // 2. Loop through the Array
-    // Notice: We go from 0 to 4 (i < 5).
-    // if you try scores[5], you crash (Index Out of Bounds).
 
     cout << "Reading Scores" << endl;
     
