@@ -2,7 +2,7 @@
 
 This repository serves as a designated environment for testing core C++ concepts, specifically focusing on manual memory management, pointer logic, and fundamental data structures.
 
-The code within this repository is experimental and intended for educational purposes to verify syntax and behavior before implementation in production-level projects.
+The code within this repository is experimental and intended for educational purposes to verify syntax, practicing current skills and behavior before implementation in production-level projects.
 
 ## Contents
 
@@ -60,11 +60,19 @@ g++ heap_memory.cpp -o heap
 ./heap
 ```
 
-### Compiling Gladiator Arena directory/folder(need to be inside the directory/folder)
+### Compiling Gladiator Arena directory/folder
+need to be inside the directory/folder
 
 ```bash
 g++ main.cpp Gladiator.cpp -o Gladiator
 ./Gladiator
+```
+
+### Compiling a normal file
+
+```
+g++ [file_name].cpp -o [file_name]
+./[file_name]
 ```
 
 ## Author
